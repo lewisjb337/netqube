@@ -1,7 +1,7 @@
 ﻿<style>
     .nav-link {
         text-decoration: none;
-        color: #E8E8E8;
+        color: var(--text-light);
         font-size: 16px;
         font-weight: 500;
         transition: color 0.2s;
@@ -21,7 +21,7 @@
     }
 
     .dropdown-item {
-        color: #E8E8E8;
+        color: var(--text-light);
     }
 </style>
 
@@ -37,7 +37,24 @@
                 <span class="nav-link-text">Home</span>
             </NavLink>
         </li>
+        <li class="nav-item">
+            <NavLink class="nav-link" href="/about" Match="NavLinkMatch.All">
+                <span class="nav-link-text">About</span>
+            </NavLink>
+        </li>
+        <li class="nav-item">
+            <NavLink class="nav-link" href="/services" Match="NavLinkMatch.All">
+                <span class="nav-link-text">Services</span>
+            </NavLink>
+        </li>
+        <li class="nav-item">
+            <NavLink class="nav-link" href="/faq" Match="NavLinkMatch.All">
+                <span class="nav-link-text">FAQ</span>
+            </NavLink>
+        </li>
     </ul>
+    
+    <button class="custom-button ms-auto">Sign-up</button>
 
     <!-- Burger Menu Button -->
     <div class="burger-menu">

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("netqube")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b6db54ced791bbca77b808a073f16e4d7d85bc4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1420c3ecf6285dbfee299759051e08454f2cb917")]
 [assembly: System.Reflection.AssemblyProductAttribute("netqube")]
 [assembly: System.Reflection.AssemblyTitleAttribute("netqube")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

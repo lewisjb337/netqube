@@ -54,3 +54,4 @@ C:\Users\lewis\Documents\GitHub\netqube\netqube\netqube\obj\Debug\net8.0\refint\
 C:\Users\lewis\Documents\GitHub\netqube\netqube\netqube\obj\Debug\net8.0\netqube.pdb
 C:\Users\lewis\Documents\GitHub\netqube\netqube\netqube\obj\Debug\net8.0\netqube.genruntimeconfig.cache
 C:\Users\lewis\Documents\GitHub\netqube\netqube\netqube\obj\Debug\net8.0\ref\netqube.dll
+C:\Users\lewis\Documents\GitHub\netqube\netqube\netqube\obj\Debug\net8.0\netqube.sourcelink.json

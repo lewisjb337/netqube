@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\app.css"
     },
     {
+      "Id": "C:\\Users\\lewis\\Documents\\GitHub\\netqube\\netqube\\netqube\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
       "Id": "C:\\Users\\lewis\\Documents\\GitHub\\netqube\\netqube\\netqube\\wwwroot\\images\\netqube-black.png",
       "PackagePath": "staticwebassets\\images\\netqube-black.png"
     },
