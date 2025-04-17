@@ -1,0 +1,98 @@
+﻿<style>
+    .nav-link {
+        text-decoration: none;
+        color: #E8E8E8;
+        font-size: 16px;
+        font-weight: 500;
+        transition: color 0.2s;
+    }
+
+    .nav-link:hover, .dropdown-item:hover {
+        color: rgb(68, 140, 116);
+    }
+
+    .nav-link.active {
+        color: rgb(68, 140, 116) !important;
+    }
+
+    .dropdown-menu {
+        background-color: #222;
+        border: none;
+    }
+
+    .dropdown-item {
+        color: #E8E8E8;
+    }
+</style>
+
+<nav class="navbar-custom container d-flex mx-auto">
+    <a href="/" class="brand mx-5">
+        <img src="images/netqube-transparent.png" alt="Netqube Logo" title="Netqube Logo" height="60">
+    </a>
+
+    <!-- Desktop Navigation -->
+    <ul class="links me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+            <NavLink class="nav-link" href="/" Match="NavLinkMatch.All">
+                <span class="nav-link-text">Home</span>
+            </NavLink>
+        </li>
+    </ul>
+
+    <!-- Burger Menu Button -->
+    <div class="burger-menu">
+        <div class="burger-bar"></div>
+        <div class="burger-bar"></div>
+        <div class="burger-bar"></div>
+    </div>
+</nav>
+
+<!-- Mobile Navigation -->
+<div class="mobile-nav">
+    <ul class="mobile-links">
+        <li class="nav-item">
+            <NavLink class="nav-link" href="/" Match="NavLinkMatch.All">
+                <span class="nav-link-text">Home</span>
+            </NavLink>
+        </li>
+    </ul>
+</div>
+
+<div class="overlay"></div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const burgerMenu = document.querySelector('.burger-menu');
+        const mobileNav = document.querySelector('.mobile-nav');
+        const overlay = document.querySelector('.overlay');
+
+        burgerMenu.addEventListener('click', function() {
+            burgerMenu.classList.toggle('active');
+            mobileNav.classList.toggle('active');
+            overlay.classList.toggle('active');
+
+            if (mobileNav.classList.contains('active')) {
+                document.body.style.overflow = 'hidden';
+            } else {
+                document.body.style.overflow = 'auto';
+            }
+        });
+
+        overlay.addEventListener('click', function() {
+            burgerMenu.classList.remove('active');
+            mobileNav.classList.remove('active');
+            overlay.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        });
+
+        const mobileLinks = document.querySelectorAll('.mobile-links .nav-link');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                burgerMenu.classList.remove('active');
+                mobileNav.classList.remove('active');
+                overlay.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            });
+        });
+    });
+</script>
