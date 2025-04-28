@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\lewis\\Documents\\Projects\\netqube\\netqube\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\netqube.bundle.scp.css",
+      "PackagePath": "staticwebassets\\netqube.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\lewis\\Documents\\Projects\\netqube\\netqube\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\lewis\\Documents\\Projects\\netqube\\netqube\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\lewis\\Documents\\Projects\\netqube\\netqube\\wwwroot\\images\\dashboard.png",
+      "PackagePath": "staticwebassets\\images\\dashboard.png"
+    },
+    {
+      "Id": "C:\\Users\\lewis\\Documents\\Projects\\netqube\\netqube\\wwwroot\\images\\download.png",
+      "PackagePath": "staticwebassets\\images\\download.png"
+    },
+    {
+      "Id": "C:\\Users\\lewis\\Documents\\Projects\\netqube\\netqube\\wwwroot\\images\\icon-normal.png",
+      "PackagePath": "staticwebassets\\images\\icon-normal.png"
+    },
+    {
+      "Id": "C:\\Users\\lewis\\Documents\\Projects\\netqube\\netqube\\wwwroot\\images\\icon.png",
+      "PackagePath": "staticwebassets\\images\\icon.png"
+    },
+    {
+      "Id": "C:\\Users\\lewis\\Documents\\Projects\\netqube\\netqube\\wwwroot\\images\\netqube-black.png",
+      "PackagePath": "staticwebassets\\images\\netqube-black.png"
+    },
+    {
+      "Id": "C:\\Users\\lewis\\Documents\\Projects\\netqube\\netqube\\wwwroot\\images\\netqube-transparent-black.png",
+      "PackagePath": "staticwebassets\\images\\netqube-transparent-black.png"
+    },
+    {
+      "Id": "C:\\Users\\lewis\\Documents\\Projects\\netqube\\netqube\\wwwroot\\images\\netqube-transparent.png",
+      "PackagePath": "staticwebassets\\images\\netqube-transparent.png"
+    },
+    {
+      "Id": "C:\\Users\\lewis\\Documents\\Projects\\netqube\\netqube\\wwwroot\\images\\settings.png",
+      "PackagePath": "staticwebassets\\images\\settings.png"
+    },
+    {
+      "Id": "C:\\Users\\lewis\\Documents\\Projects\\netqube\\netqube\\wwwroot\\robots.txt",
+      "PackagePath": "staticwebassets\\robots.txt"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.netqube.props",
+      "PackagePath": "build\\netqube.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.netqube.props",
+      "PackagePath": "buildMultiTargeting\\netqube.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.netqube.props",
+      "PackagePath": "buildTransitive\\netqube.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.netqube.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

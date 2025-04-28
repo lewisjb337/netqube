@@ -1,0 +1,89 @@
+﻿@inherits LayoutComponentBase
+
+<style>
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        background-color: var(--background-color-dark-active) !important;
+        border-radius: 10px !important;
+        padding: 12px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-pills .nav-link.active .nav-link-text {
+        color: #FFFFFF !important;
+    }
+
+    .nav-link{
+        color: var(--text-light)  !important;
+        border-radius: 10px !important;
+        padding: 10px !important;
+        font-weight: 400 !important;
+        font-size: 15px !important;
+        line-height: 20px !important;
+        display: flex !important;
+        align-items: center !important;
+        text-decoration: none !important;
+    }
+
+    .nav-pills .nav-link.active i {
+        color:  var(--primary);
+    }
+
+    .nav-link:hover{
+        background-color: var(--background-color-dark-active);
+    }
+</style>
+
+<div class="sidebar">
+    <a href="/" class="text-center text-white fs-3 text-decoration-none">
+        <img src="/images/netqube-transparent.png" alt="Netqube Logo" width="175">
+    </a>
+
+    <div class="sidebar-content">
+        <ul class="nav nav-pills flex-column mb-auto">
+            <li class="sidebar-section-title">GENERAL</li>
+            <li class="nav-item">
+                <NavLink class="nav-link" href="/dashboard" Match="NavLinkMatch.All">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <span class="nav-link-text">Dashboard</span>
+                </NavLink>
+            </li>
+            <li class="nav-item">
+                <NavLink class="nav-link" href="/projects" Match="NavLinkMatch.All">
+                    <i class="fa-solid fa-diagram-project"></i>
+                    <span class="nav-link-text">Projects</span>
+                </NavLink>
+            </li>
+            <li class="nav-item">
+                <NavLink class="nav-link" href="/tickets" Match="NavLinkMatch.All">
+                    <i class="fa-solid fa-note-sticky"></i>
+                    <span class="nav-link-text">Tickets</span>
+                </NavLink>
+            </li>
+            <li class="nav-item">
+                <NavLink class="nav-link" href="/Documents" Match="NavLinkMatch.All">
+                    <i class="fa-solid fa-file"></i>
+                    <span class="nav-link-text">Documents</span>
+                </NavLink>
+            </li>
+        </ul>
+        <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item test">
+                <NavLink class="nav-link" href="/Account/Logout">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    <span class="nav-link-text">Logout</span>
+                </NavLink>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="main-content">
+    <div class="content">
+        <CascadingValue Value="this">
+            @Body
+        </CascadingValue>
+    </div>
+</div>

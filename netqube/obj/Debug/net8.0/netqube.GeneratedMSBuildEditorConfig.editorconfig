@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = netqube
+build_property.RootNamespace = netqube
+build_property.ProjectDir = C:\Users\lewis\Documents\Projects\netqube\netqube\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\lewis\Documents\Projects\netqube\netqube
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/lewis/Documents/Projects/netqube/netqube/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lewis/Documents/Projects/netqube/netqube/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lewis/Documents/Projects/netqube/netqube/Components/Modules/Modal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNb2R1bGVzXE1vZGFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lewis/Documents/Projects/netqube/netqube/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lewis/Documents/Projects/netqube/netqube/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lewis/Documents/Projects/netqube/netqube/Components/Layout/DashboardLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcRGFzaGJvYXJkTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-bhv83o24bu
+
+[C:/Users/lewis/Documents/Projects/netqube/netqube/Components/Layout/Navbar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2YmFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-3xapu47rkz
+
+[C:/Users/lewis/Documents/Projects/netqube/netqube/Components/Pages/Dashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEYXNoYm9hcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-9s3p8m0opy
+
+[C:/Users/lewis/Documents/Projects/netqube/netqube/Components/Pages/Documents.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEb2N1bWVudHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-eu2tvmvyld
+
+[C:/Users/lewis/Documents/Projects/netqube/netqube/Components/Pages/Landing.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMYW5kaW5nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-g9w7wduaut
+
+[C:/Users/lewis/Documents/Projects/netqube/netqube/Components/Pages/PrivacyPolicy.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcml2YWN5UG9saWN5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-sukluc38zj
+
+[C:/Users/lewis/Documents/Projects/netqube/netqube/Components/Pages/Projects.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9qZWN0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-5gh3jnlzfw
+
+[C:/Users/lewis/Documents/Projects/netqube/netqube/Components/Pages/TermsOfService.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUZXJtc09mU2VydmljZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-vu9c03lqv4
+
+[C:/Users/lewis/Documents/Projects/netqube/netqube/Components/Pages/Tickets.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUaWNrZXRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-a0ycas0br0

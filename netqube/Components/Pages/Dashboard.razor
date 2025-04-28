@@ -1,0 +1,32 @@
+﻿@using netqube.Components.Layout
+@using Sidio.Sitemap.Blazor
+
+@page "/dashboard"
+
+@layout DashboardLayout
+
+@attribute [Authorize]
+@attribute [Sitemap]
+
+@rendermode InteractiveServer
+
+<PageTitle>Netqube - Dashboard</PageTitle>
+
+@if (_isLoading)
+{
+    <div id="loading-overlay">
+        <div class="loading-container">
+            <div class="spinner"></div>
+            <div class="loading-text">Loading</div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="m-5 d-flex justify-content-between align-items-center page-header">
+        <div>
+            <h2><i class="fa-solid fa-chart-pie"></i>Dashboard</h2>
+            <p>Overview for all projects, tickets and documents</p>
+        </div>
+    </div>
+}

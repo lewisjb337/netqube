@@ -1,0 +1,43 @@
+﻿@using netqube.Components.Layout
+@using Sidio.Sitemap.Blazor
+
+@page "/tickets"
+
+@layout DashboardLayout
+
+@attribute [Authorize]
+@attribute [Sitemap]
+
+@rendermode InteractiveServer
+
+<PageTitle>Netqube - Tickets</PageTitle>
+
+@if (_isLoading)
+{
+    <div id="loading-overlay">
+        <div class="loading-container">
+            <div class="spinner"></div>
+            <div class="loading-text">Loading</div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="m-5 d-flex justify-content-between align-items-center page-header">
+        <div>
+            <h2><i class="fa-solid fa-note-sticky"></i>Tickets</h2>
+            <p>Overview for all tickets created, resolved and in-progress</p>
+        </div>
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="filter-search-container d-flex justify-content-end align-items-center mr-3">
+                <input type="text" class="search-bar" placeholder="Search by ticket name" disabled="@_isLoading" @bind="SearchText" @bind:event="oninput" />
+                @if (_isLoading)
+                {
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading</span>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+}

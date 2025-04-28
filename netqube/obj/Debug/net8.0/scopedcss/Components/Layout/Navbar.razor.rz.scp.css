@@ -1,0 +1,127 @@
+.nav-link-text[b-3xapu47rkz] {
+    text-decoration: none;
+    color: var(--text-light);
+    font-size: 17px;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.nav-link-text:hover[b-3xapu47rkz] {
+    color: var(--primary-hover);
+}
+
+.nav-link.active[b-3xapu47rkz] {
+    color: var(--primary) !important;
+}
+
+.nav-link.active .nav-link-text[b-3xapu47rkz] {
+    color: var(--primary) !important;
+}
+
+.brand[b-3xapu47rkz] {
+    text-decoration: none;
+}
+
+.navbar-custom[b-3xapu47rkz] {
+    background-color: var(--navbar-background-light);
+    border-radius: 15px;
+    margin: 25px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    position: relative;
+    z-index: 1;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.links[b-3xapu47rkz] {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 0;
+}
+
+.burger-menu[b-3xapu47rkz] {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+    z-index: 20;
+}
+
+.burger-bar[b-3xapu47rkz] {
+    width: 100%;
+    height: 3px;
+    background-color: var(--text-secondary);
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Mobile navigaton menu */
+.mobile-nav[b-3xapu47rkz] {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+    background-color: var(--text-secondary);
+    padding: 100px 20px 20px;
+    transition: right 0.3s ease-in-out;
+    z-index: 10;
+}
+
+.mobile-nav.active[b-3xapu47rkz] {
+    right: 0;
+}
+
+.mobile-links[b-3xapu47rkz] {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.burger-menu.active .burger-bar:nth-child(1)[b-3xapu47rkz] {
+    transform: translateY(9px) rotate(45deg);
+}
+
+.burger-menu.active .burger-bar:nth-child(2)[b-3xapu47rkz] {
+    opacity: 0;
+}
+
+.burger-menu.active .burger-bar:nth-child(3)[b-3xapu47rkz] {
+    transform: translateY(-9px) rotate(-45deg);
+}
+
+.overlay[b-3xapu47rkz] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+    display: none;
+}
+
+.overlay.active[b-3xapu47rkz] {
+    display: block;
+}
+
+@media (max-width: 992px) {
+    .links[b-3xapu47rkz] {
+        display: none;
+    }
+
+    .burger-menu[b-3xapu47rkz] {
+        display: flex;
+    }
+}

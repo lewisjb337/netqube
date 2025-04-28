@@ -1,0 +1,511 @@
+﻿@using Sidio.Sitemap.Blazor
+@page "/"
+
+@attribute [Sitemap]
+
+@rendermode InteractiveServer
+
+<PageTitle>Netqube - Home</PageTitle>
+
+<div class="hero-wrapper">
+    <div class="container position-relative z-2 pb-5">
+        <div class="row justify-content-center pt-3 hero-content">
+            <div class="col-lg-9 col-xl-8 text-center pt-5 mt-1">
+                <h1 class="display-3 pt-3 mt-3 mb-4">Back-End Solutions. <br/> Built to Scale.</h1>
+                <p class="opacity-70 fs-5">
+                    We design powerful APIs, cloud infrastructure, and data systems that evolve with your business — 
+                    secure, efficient, and future-ready.
+                </p>
+
+                <div class="d-flex justify-content-center gap-3 mt-5">
+                    <a href="#contact" class="custom-button-large px-4">
+                        <i class="fa-regular fa-message" style="margin-right: 10px;"></i>Get In Touch
+                    </a>
+                    <a href="#services" class="custom-button-outline-large px-4">
+                        <i class="fa-solid fa-circle-info" style="margin-right: 10px;"></i>Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="container pb-2 pb-sm-3 pb-md-4 pb-lg-5 hero-subsection-wrapper">
+    <div class="card hero-subsection">
+        <div class="row row-cols-1 row-cols-md-3 g-0 text-center">
+            <div class="col d-md-flex justify-content-center position-relative">
+                <div class="position-absolute top-50 end-0 translate-middle-y border-end statistics-divider d-none d-md-block"></div>
+                <div class="p-4 px-sm-0 py-sm-5">
+                    <div class="h2 display-5 mb-0 text-green">1-on-1</div>
+                    <div class="text-blue fw-bold">Technical Project Onboarding</div>
+                    <small class="text-muted">Personalized guidance from kickoff to deployment.</small>
+                </div>
+            </div>
+            <div class="col d-md-flex justify-content-center position-relative">
+                <div class="p-4 px-sm-0 py-sm-5">
+                    <div class="h2 display-5 mb-0 text-green">Client Portal</div>
+                    <div class="text-blue fw-bold">Access from Day One</div>
+                    <small class="text-muted">Track progress, request updates, view documents easily.</small>
+                </div>
+            </div>
+            <div class="col d-md-flex justify-content-center position-relative">
+                <div class="position-absolute top-50 end-0 translate-middle-y border-end statistics-divider d-none d-md-block"></div>
+                <div class="p-4 px-sm-0 py-sm-5">
+                    <div class="h2 display-5 mb-0 text-green">ISO-aligned</div>
+                    <div class="text-blue fw-bold">Security Practices</div>
+                    <small class="text-muted">Modern, standards-driven infrastructure by default.</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="howitworks" class="overflow-hidden py-5 my-5">
+    <div class="container pt-2 pt-sm-4 pt-lg-5">
+        <h1 class="text-center pb-3 mb-3 mb-lg-4">Using the <span class="text-warning">Portal</span></h1>
+
+        <!-- Step 1 -->
+        <div class="row align-items-center position-relative pb-5 pb-lg-0 mb-1 mb-sm-2 mb-md-4 mb-lg-0">
+            <div class="col-md-6 col-xl-5 offset-lg-1 order-md-2 pb-2 pb-md-0 mb-4 mb-md-0" data-aos="fade-left" data-aos-duration="500" data-aos-offset="250">
+                <img class="d-dark-mode-none rounded-5" src="/images/dashboard.png" width="525" alt="Image">
+            </div>
+            <div class="col-md-6 col-lg-5 col-xl-4 offset-xl-1 order-md-1" data-aos="fade-right" data-aos-duration="500" data-aos-offset="250">
+                <div class="pe-md-4 pe-lg-0">
+                    <span class="custom-badge-green fs-sm bg-opacity-10 mb-3 mb-lg-4">Step 01</span>
+                    <h3 class="h2 mb-3 mb-lg-4">Get Access</h3>
+                    <p class="pb-1 pb-lg-0 mb-4 mb-lg-5">
+                        Once you’ve partnered with Netqube, we’ll provide you with secure login credentials to your 
+                        dedicated Partner Dashboard—your central hub for project collaboration.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Arrow -->
+        <div class="d-none d-lg-flex justify-content-center" data-aos="fade-in" data-aos-duration="500" data-aos-offset="250">
+            <svg class="d-block text-success" width="339" height="365" viewBox="0 0 339 365" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-left: -150px; margin-top: -140px; margin-bottom: -108px;">
+                <path d="M324 291.371C120.111 291.37 240.756 58.7225 1.00032 73.2606" stroke="url(#arrow1)" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"></path>
+                <path d="M337.375 290.62C338.074 290.998 338.074 292.001 337.375 292.379L328.476 297.196C327.81 297.557 327 297.074 327 296.317L327 286.683C327 285.925 327.81 285.443 328.476 285.803L337.375 290.62Z" fill="currentColor"></path>
+                <defs>
+                    <linearGradient id="arrow1" x1="324" y1="291.5" x2="-2.99974" y2="72.4997" gradientUnits="userSpaceOnUse">
+                        <stop offset="0" stop-color="currentColor"></stop>
+                        <stop offset="1" stop-color="currentColor" stop-opacity="0"></stop>
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="row align-items-center position-relative pb-5 pb-lg-0 mb-1 mb-sm-2 mb-md-4 mb-lg-0">
+            <div class="col-md-6 col-xl-5 offset-xl-1 pb-2 pb-md-0 mb-4 mb-md-0" data-aos="fade-right" data-aos-duration="500" data-aos-offset="250">
+                <img class="d-dark-mode-none rounded-5" src="/images/settings.png" width="473" alt="Image">
+            </div>
+            <div class="col-md-6 col-lg-5 col-xl-4 offset-lg-1" data-aos="fade-left" data-aos-duration="500" data-aos-offset="250">
+                <div class="ps-md-4 ps-lg-0">
+                    <span class="custom-badge-green fs-sm bg-opacity-10 mb-3 mb-lg-4">Step 02</span>
+                    <h3 class="h2 mb-3 mb-lg-4">Stay Connected</h3>
+                    <p class="pb-1 pb-lg-0 mb-4 mb-lg-5">
+                        Inside the dashboard, you can view project timelines, track progress in real time, and access 
+                        all relevant documents and files. Everything you need is organized and easy to find.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Arrow -->
+        <div class="d-none d-lg-flex justify-content-center" data-aos="fade-in" data-aos-duration="500" data-aos-offset="250">
+            <svg class="d-block text-success" width="263" height="275" viewBox="0 0 263 275" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-top: -60px; margin-left: -120px; margin-bottom: -80px;">
+                <path d="M8.13678 249.647C7.47108 250.081 6.59001 249.602 6.59106 248.808L6.60444 238.689C6.60544 237.931 7.4158 237.45 8.08162 237.811L16.5478 242.408C17.2136 242.77 17.2512 243.712 16.6163 244.125L8.13678 249.647Z" fill="currentColor"></path>
+                <path d="M261.961 37.8891C216.908 65.6243 128.226 135.486 133.916 193.05C141.029 265.005 265.134 173.468 173.666 148.634C89.2542 125.715 30.9125 210.547 13.9796 236.702" stroke="url(#arrow2)" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"></path>
+                <defs>
+                    <linearGradient id="arrow2" x1="13.9797" y1="234.5" x2="276.704" y2="60.1939" gradientUnits="userSpaceOnUse">
+                        <stop offset="0" stop-color="currentColor"></stop>
+                        <stop offset="1" stop-color="currentColor" stop-opacity="0"></stop>
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="row align-items-center position-relative">
+            <div class="col-md-6 col-xl-5 offset-lg-1 order-md-2 d-md-flex justify-content-end pb-2 pb-md-0 mb-4 mb-md-0" data-aos="fade-left" data-aos-duration="500" data-aos-offset="250">
+                <img class="d-dark-mode-none rounded-5" src="/images/download.png" width="473" alt="Image">
+            </div>
+            <div class="col-md-6 col-lg-5 col-xl-4 offset-xl-1 order-md-1" data-aos="fade-right" data-aos-duration="500" data-aos-offset="250">
+                <div class="pe-md-4 pe-lg-0">
+                    <span class="custom-badge-green fs-sm bg-opacity-10 mb-3 mb-lg-4">Step 03</span>
+                    <h3 class="h2 mb-3 mb-lg-4">Take Control</h3>
+                    <p class="pb-1 pb-lg-0 mb-4 mb-lg-5">
+                        Submit support tickets, ask questions, and receive updates as your project moves forward. You’re 
+                        always in the loop, with clear visibility and communication at every stage.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta-section py-5 my-5">
+    <div class="container pt-lg-2 pt-xl-4 pt-xxl-5 pb-1 pb-sm-3">
+        <div class="row pt-sm-3 pt-md-4">
+            <div class="col-md-6 col-xl-5 offset-xl-1">
+                <h2 class="display-3 text-white">Ready to take your business to the next level?</h2>
+            </div>
+            <div class="col-md-6 col-lg-5 col-xl-4 offset-lg-1 mt-3">
+                <p class="fs-xl pb-4 mb-2 mb-lg-3">
+                    We combine strategy, design, and technology to deliver real results—backed
+                    by data and driven by innovation. Let’s turn your ideas into measurable impact.
+                </p>
+                <div class="input-group">
+                    <a class="custom-button-warning-large" href="#contact">Book a call<i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="d-none d-md-block text-center mt-n5">
+            <svg class="text-warning ms-lg-5" width="171" height="97" viewBox="0 0 171 97" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M169.319 54.333C162.404 55.9509 155.712 58.0764 149.09 60.6764L149.07 60.6761C148.967 60.7158 148.863 60.7554 148.76 60.7951C147.3 61.3811 148.325 63.4238 149.672 63.2067C154.548 62.4134 159.994 59.8725 164.87 59.0792C148.278 73.1339 129.684 89.2549 107.779 92.6402C85.6981 96.0539 65.5665 86.7839 56.8768 66.9865C70.9662 55.0671 79.2106 35.6614 79.0299 17.6457C78.9484 10.3157 76.1485 -3.36373 65.7068 1.21851C55.8557 5.53146 52.0466 22.5213 50.5736 31.7739C48.7364 43.2858 49.7593 55.5291 53.8643 66.2014C52.787 67.0812 51.6907 67.8989 50.5755 68.6546C40.6328 75.3851 27.1039 78.8929 16.4487 72.0362C2.91045 63.3259 1.93984 44.9485 1.56902 30.4091C1.54778 29.6265 0.359869 29.6092 0.360624 30.3915C0.322634 44.0809 0.835929 59.065 10.5664 69.6857C18.5722 78.4182 30.4315 79.7753 41.3346 75.9924C46.2437 74.2834 50.7739 71.7557 54.8581 68.6348C59.9738 80.2586 68.9965 89.6956 82.2735 93.7393C113.474 103.223 141.744 83.0494 164.903 63.697L161.901 71.0334C161.267 72.5887 163.76 73.2736 164.393 71.7389C165.986 67.8713 167.569 63.9933 169.152 60.1359C169.288 60.0247 169.695 58.6127 169.821 58.491C170.122 57.1161 169.152 60.1359 169.851 58.4169C170.189 57.6087 170.517 56.79 170.855 55.9818C171.248 54.9994 170.185 54.1192 169.319 54.333ZM54.3624 59.8578C51.4872 49.1623 51.6051 37.5841 54.2025 26.8039C55.5185 21.3369 57.4405 15.8066 60.1572 10.8541C61.2311 8.89354 62.5139 6.77134 64.2307 5.31421C69.4231 0.902277 74.3649 4.80357 75.8002 10.4446C80.5272 28.9489 70.1806 51.6898 55.8431 64.5114C55.2971 63.0109 54.793 61.4698 54.3624 59.8578Z"></path>
+            </svg>
+        </div>
+    </div>
+</section>
+
+<section id="services" class="container py-5 my-md-2 my-lg-3 my-xl-4 my-xxl-5 mt-5">
+    <div class="row align-items-center py-1 py-sm-3 py-md-4 my-lg-2">
+        <div class="col-lg-4">
+            <h1 class="text-center text-lg-start pb-3 pb-lg-1">Our Services</h1>
+
+            <ul class="list-unstyled d-none d-lg-block pb-3 mb-3 mb-lg-4">
+                <li class="d-flex pt-2">
+                    <i class="fa-solid fa-check mt-n1 me-2 text-green"></i>
+                    Scalable, secure, and maintainable backend solutions
+                </li>
+                <li class="d-flex pt-2">
+                    <i class="fa-solid fa-check mt-n1 me-2 text-green"></i>
+                    Expert API development for seamless frontend integration
+                </li>
+                <li class="d-flex pt-2">
+                    <i class="fa-solid fa-check mt-n1 me-2 text-green"></i>
+                    On-time delivery with clean, well-documented code
+                </li>
+            </ul>
+            <a class="custom-button-large w-50 justify-content-center" href="#contact">Get Started<i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i></a>
+        </div>
+
+        <div class="col-lg-8">
+            <div class="row row-cols-1 row-cols-sm-2">
+                <div class="col">
+                    <div class="card border-0 bg-primary bg-opacity-10">
+                        <div class="card-body">
+                            <i class="fa-solid fa-code text-primary d-block mb-3 fs-3"></i>
+                            <h4>API Development</h4>
+                            <p class="fs-sm">Design and implement robust APIs tailored to your app’s needs. We ensure consistency, security, and performance — ready to scale as your business grows.</p>
+                        </div>
+                    </div>
+                    <div class="card border-0 bg-info bg-opacity-10 mt-4">
+                        <div class="card-body">
+                            <i class="fa-solid fa-database text-info d-block mb-3 fs-3"></i>
+                            <h4>Database Design</h4>
+                            <p class="fs-sm">Efficient relational and NoSQL database design that supports your business logic. From schema optimization to indexing and migrations, we’ve got your data backbone covered.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pt-lg-3">
+                    <div class="card border-0 bg-warning bg-opacity-10 mt-4 mt-sm-0 mt-lg-4">
+                        <div class="card-body">
+                            <i class="fa-solid fa-chart-line text-warning d-block mb-3 fs-3"></i>
+                            <h4>Performance Optimization</h4>
+                            <p class="fs-sm">Identify bottlenecks and boost performance through code profiling, query tuning, and architecture refactoring. We make sure your systems are lightning-fast and reliable under load.</p>
+                        </div>
+                    </div>
+                    <div class="card border-0 bg-danger bg-opacity-10 mt-4">
+                        <div class="card-body">
+                            <i class="fa-solid fa-gears text-danger d-block mb-3 fs-3"></i>
+                            <h4>System Integrations</h4>
+                            <p class="fs-sm">Connect your product with third-party services, payment gateways, CRMs, and internal tools. We build smooth integrations that automate workflows and reduce operational friction.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-lg-none text-center pt-3 mt-3 mt-sm-4">
+                <a class="custom-button-large w-50 justify-content-center" href="#">Get Started<i class="fa-solid fa-arrow-right" style="margin-left: 10px;"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="faq" class="container faq-element rounded-5 my-5 p-5">
+    <div class="container py-md-2 py-lg-3 py-xl-5 my-2 my-sm-3 my-md-4 my-xxl-5">
+        <div class="row">
+            <div class="col-md-4 text-center text-md-start">
+                <h2 class="section-title" style="font-weight: 600">Any questions? Check out the FAQ</h2>
+                <p class="pb-3 pb-sm-4">Find answers to common questions about Netqube's services, subscriptions, and account management.</p>
+                <div class="d-none d-md-flex justify-content-center">
+                    <!-- SVG remains unchanged -->
+                    <svg class="faq-arrow ms-n4" width="200" height="211" viewBox="0 0 200 211" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- SVG Path -->
+                    </svg>
+                </div>
+            </div>
+            <div class="col-md-8 col-lg-7 offset-lg-1">
+                <div class="accordion" id="faq">
+                    <div class="accordion-item d-none"></div>
+
+                    <div class="accordion-item bg-light">
+                        <h3 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#questionOne" aria-expanded="true" aria-controls="questionOne">What is Netqube?</button>
+                        </h3>
+                        <div class="accordion-collapse collapse show" id="questionOne" aria-labelledby="headingOne" data-bs-parent="#faq">
+                            <div class="accordion-body fs-sm">
+                                Netqube is a backend-as-a-service platform offering scalable API development, database architecture, and system integration services for modern applications. We help teams launch faster with reliable backend infrastructure.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item bg-light">
+                        <h3 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questionTwo" aria-expanded="false" aria-controls="questionTwo">What services does Netqube offer?</button>
+                        </h3>
+                        <div class="accordion-collapse collapse" id="questionTwo" aria-labelledby="headingTwo" data-bs-parent="#faq">
+                            <div class="accordion-body fs-sm">
+                                Netqube provides custom API development, database design and optimization, secure authentication integration, deployment pipelines, and system monitoring. We also offer managed solutions and consultation packages.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item bg-light">
+                        <h3 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questionThree" aria-expanded="false" aria-controls="questionThree">How does pricing work?</button>
+                        </h3>
+                        <div class="accordion-collapse collapse" id="questionThree" aria-labelledby="headingThree" data-bs-parent="#faq">
+                            <div class="accordion-body fs-sm">
+                                We offer flexible pricing plans depending on your project size and support needs. You can choose between one-time services, hourly consulting, or a monthly subscription for ongoing support and infrastructure management.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item bg-light">
+                        <h3 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questionFour" aria-expanded="false" aria-controls="questionFour">Can I integrate Netqube with my existing app?</button>
+                        </h3>
+                        <div class="accordion-collapse collapse" id="questionFour" aria-labelledby="headingFour" data-bs-parent="#faq">
+                            <div class="accordion-body fs-sm">
+                                Absolutely. Netqube is designed to be modular and API-first, meaning it can be integrated into existing systems, whether you're using a frontend framework like React, Blazor, or a mobile stack like Flutter or Swift.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item bg-light">
+                        <h3 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questionFive" aria-expanded="false" aria-controls="questionFive">How do I get started?</button>
+                        </h3>
+                        <div class="accordion-collapse collapse" id="questionFive" aria-labelledby="headingFive" data-bs-parent="#faq">
+                            <div class="accordion-body fs-sm">
+                                To get started, send us a message with the contact form and we can start a conversation. From there, you'll get access to your own dashboard to track projects, submit tickets, view documents and much more.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item d-none"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section id="contact" class="contact-section pt-5 pb-4">
+    <div class="container py-lg-2 py-xl-4 py-xxl-5">
+        <div class="row mt-1 pt-sm-2 pt-md-3 pt-lg-4">
+            <div class="col-lg-5 mb-5 mb-lg-0">
+                <h1>Benefits of working with us</h1>
+                <p class="pb-1 pb-md-0 mb-4 mb-md-5">
+                    Whether you're launching a new product or scaling an existing platform, we bring clarity, precision,
+                    and deep technical expertise to every project we take on.
+                </p>
+                <h3 class="mb-4">Send your request!</h3>
+
+                <!-- Contact form -->
+                <EditForm Model="@_contactModel" OnValidSubmit="@(async () => await HandleSubmit())">
+                    <DataAnnotationsValidator />
+                    <ValidationSummary />
+
+                    <div class="col-lg-10">
+                        <label class="form-label fs-base" for="name">Name</label>
+                        <InputText class="form-control form-control-lg" id="name" @bind-Value="_contactModel.Name" />
+                        <ValidationMessage For="@(() => _contactModel.Name)" />
+                    </div>
+
+                    <div class="col-lg-10">
+                        <label class="form-label fs-base" for="email">Email</label>
+                        <InputText class="form-control form-control-lg" id="email" @bind-Value="_contactModel.Email" type="email" />
+                        <ValidationMessage For="@(() => _contactModel.Email)" />
+                    </div>
+
+                    <div class="col-lg-10">
+                        <label class="form-label fs-base" for="message">Message</label>
+                        <InputTextArea class="form-control form-control-lg" id="message" @bind-Value="_contactModel.Message" rows="4" />
+                        <ValidationMessage For="@(() => _contactModel.Message)" />
+                    </div>
+
+                    <div class="col-lg-10">
+                        <button class="custom-button-large mt-2" type="submit">Send request</button>
+                    </div>
+                    @if (!_isSuccess)
+                    {
+                        <p class="text-danger mt-2">Failed to send message. Try again later.</p>
+                    }
+                    @if (_showSuccess)
+                    {
+                        <p class="text-success mt-2">Your message was sent successfully!</p>
+                    }
+                </EditForm>
+
+            </div>
+
+            <!-- Benefits -->
+            <div class="col-lg-7 col-xl-6 offset-xl-1">
+                <div class="row row-cols-1 row-cols-sm-2">
+                    <div class="col">
+
+                        <!-- Card -->
+                        <div class="card border-0 mb-4">
+                            <div class="card-body">
+                                <svg class="d-block mb-3" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="text-warning" d="M31.5412 14.6389C30.9843 23.6874 23.7303 30.927 14.6641 31.4828V35.9999H36.0671V14.6389H31.5412Z" fill="currentColor"></path>
+                                    <path class="text-primary" d="M13.5469 27.0373C21.0277 27.0373 27.0922 20.9848 27.0922 13.5186H13.5469V27.0373Z" fill="currentColor"></path>
+                                    <path class="text-warning" d="M26.3276 9.03734C24.475 3.77395 19.4522 0 13.5453 0C6.06443 0 0 6.0525 0 13.5187C0 19.4139 3.78139 24.4269 9.05514 26.2758V9.03734H26.3276Z" fill="currentColor"></path>
+                                </svg>
+                                <h4 style="max-width: 180px;">
+                                    Global Collaboration
+                                </h4>
+                                <p class="card-text fs-sm">
+                                    We work seamlessly across time zones to keep your project moving forward—no matter 
+                                    where you're located.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Card -->
+                        <div class="card border-0 custom-bg-primary">
+                            <div class="card-body">
+                                <svg class="d-block mb-3" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22.7496 11.4756C25.3743 8.85089 25.3743 4.59539 22.7496 1.97068C20.1249 -0.654032 15.8694 -0.654033 13.2447 1.97068C10.6199 4.59539 10.6199 8.85089 13.2447 11.4756C15.8694 14.1003 20.1249 14.1003 22.7496 11.4756Z" fill="white"></path>
+                                    <path class="text-warning" d="M13.2173 26.3746C14.0903 24.3107 15.2282 22.395 16.6119 20.6516C12.48 16.1818 6.56698 13.3827 0 13.3827V36H11.2733C11.2733 32.6628 11.9274 29.4243 13.2173 26.3746Z" fill="currentColor"></path>
+                                    <path class="text-warning" d="M36.0001 36.0001V13.3828C23.5089 13.3828 13.3828 23.5089 13.3828 36.0001H36.0001Z" fill="currentColor"></path>
+                                </svg>
+                                <h4 style="max-width: 180px;">
+                                    End-to-End Solutions
+                                </h4>
+                                <p class="card-text fs-sm">
+                                    We cover everything from backend systems and API development to database 
+                                    optimization and cloud deployment.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col d-flex flex-column pt-4 mt-sm-3">
+
+                        <!-- Card -->
+                        <div class="card border-0 order-sm-2 mb-4 mb-sm-0">
+                            <div class="card-body">
+                                <svg class="d-block mb-3" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="text-warning" d="M31.5412 14.6389C30.9843 23.6874 23.7303 30.927 14.6641 31.4828V35.9999H36.0671V14.6389H31.5412Z" fill="currentColor"></path>
+                                    <path class="text-primary" d="M13.5469 27.0373C21.0277 27.0373 27.0922 20.9848 27.0922 13.5186H13.5469V27.0373Z" fill="currentColor"></path>
+                                    <path class="text-warning" d="M26.3276 9.03734C24.475 3.77395 19.4522 0 13.5453 0C6.06443 0 0 6.0525 0 13.5187C0 19.4139 3.78139 24.4269 9.05514 26.2758V9.03734H26.3276Z" fill="currentColor"></path>
+                                </svg>
+                                <h4 style="max-width: 180px;">
+                                    We Solve Complex Problems
+                                </h4>
+                                <p class="card-text fs-sm">
+                                    No matter how technical or ambitious, we thrive on finding smart, scalable solutions 
+                                    to tough challenges.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Card -->
+                        <div class="card border-0 custom-bg-primary order-sm-1 mb-sm-4">
+                            <div class="card-body">
+                                <svg class="d-block mb-3" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22.4844 22.4814H36.0031V36.0001H22.4844V22.4814Z" fill="white"></path>
+                                    <path class="text-warning" d="M8.96266 18C8.96266 13.0088 13.0088 8.96266 18 8.96266C22.9912 8.96266 27.0373 13.0088 27.0373 18H36C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36V27.0373C13.0088 27.0373 8.96266 22.9912 8.96266 18Z" fill="currentColor"></path>
+                                </svg>
+                                <h4 style="max-width: 180px;">
+                                    Flexible Engagement
+                                </h4>
+                                <p class="card-text fs-sm">
+                                    From one-off consultations to long-term partnerships, our services adapt to your 
+                                    business model and growth stage.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container footer pt-5 pb-2 pb-md-5 pt-sm-5">
+        <div>
+            <div class="footer-bg rounded-5 position-relative overflow-hidden w-100 py-5 px-3 px-sm-4 px-xl-5 mx-auto">
+                <div class="container position-relative z-2 pt-md-3 pt-lg-4 pt-xl-5 pb-2">
+                    <div class="row pb-2">
+                        <div class="col-lg-4 col-xxl-3 pb-2 pb-lg-0 mb-4 mb-lg-0">
+                            <div class="navbar-brand text-light py-0 me-0 pb-1 mb-3">
+                              <span class="text-white opacity-90">
+                                  <img src="/images/netqube-transparent-black.png" height="75" alt="Netqube Logo" name="Netqube Logo">
+                              </span>
+                            </div>
+                            <p class="text-muted fs-sm mb-4">
+                                Empowering smarter decisions through intuitive data access and insights.
+                            </p>
+                        </div>
+                        <div class="col-sm-4 col-lg-2 offset-lg-1 offset-xl-2 offset-xxl-3 mb-4 mb-sm-0">
+                            <h5 class="fw-bold text-black">Company</h5>
+                            <ul class="nav flex-column fs-sm">
+                                <li class="nav-item">
+                                    <a class="nav-link fw-normal px-0 py-1" href="/">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-normal px-0 py-1" href="#howitworks">How it works</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-normal px-0 py-1" href="#services">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-normal px-0 py-1" href="#faq">FAQ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-normal px-0 py-1" href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-lg-2 mb-4 mb-sm-0">
+                            <h5 class="fw-bold text-black">Support</h5>
+                            <ul class="nav flex-column fs-sm">
+                                <li class="nav-item">
+                                    <a class="nav-link fw-normal px-0 py-1" href="/terms-of-service">Terms of service</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-normal px-0 py-1" href="/privacy-policy">Privacy policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-lg-3 col-xl-2">
+                            <h5 class="fw-bold text-black">Contact us</h5>
+                            <ul class="nav flex-column fs-sm">
+                                <li class="nav-item">
+                                    <a class="nav-link fw-normal px-0 py-1" href="mailto:contact@netqube.com">contact@netqube.com</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-normal px-0 py-1" href="tel:07981265236">+44&nbsp;798&nbsp;126&nbsp;5236</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>

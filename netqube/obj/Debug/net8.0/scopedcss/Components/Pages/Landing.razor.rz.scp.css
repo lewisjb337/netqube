@@ -1,0 +1,89 @@
+.text-green[b-g9w7wduaut] {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.text-blue[b-g9w7wduaut] {
+    color: var(--info);
+    font-weight: 600;
+}
+
+.hero-wrapper[b-g9w7wduaut] {
+    background: #F8F4E6;
+    background: linear-gradient(180deg, rgba(248, 244, 230, 1) 0%, rgba(247, 249, 252, 1) 100%);
+    padding: 25px 0 250px 0;
+    margin-top: -8.3rem;
+}
+
+.hero-content[b-g9w7wduaut] {
+    margin-top: 6.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.hero-subsection-wrapper[b-g9w7wduaut] {
+    margin-top: -11.5rem;
+}
+
+.hero-subsection[b-g9w7wduaut] {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #F7F9FC !important;
+}
+
+.contact-section[b-g9w7wduaut] {
+    background-color: #f3f6f9 !important;
+}
+
+.custom-bg-primary[b-g9w7wduaut] {
+    color: rgba(255, 255, 255, 0.7) !important;
+    background-color: var(--primary) !important;
+}
+
+.custom-bg-primary h4[b-g9w7wduaut] {
+    color: #FFFFFF !important;
+}
+
+.faq-element[b-g9w7wduaut]{
+    background-color: #f3f6f9 !important;
+}
+
+.faq-arrow[b-g9w7wduaut]{
+    color: var(--primary);
+}
+
+.accordion-button[b-g9w7wduaut]{
+    color: var(--text-dark);
+    font-weight: 600;
+    font-size: 16px;
+    background-color: var(--secondary) !important;
+    border-radius: 15px;
+    box-shadow: none !important;
+    padding: 25px;
+}
+
+.accordion-item[b-g9w7wduaut] {
+    margin: 30px auto;
+    background-color: #EDF1F5 !important;
+    border: 1px solid var(--secondary) !important;
+    border-radius: 15px;
+    color: var(--text-dark);
+    font-size: 14px;
+}
+
+.accordion-button:not(.collapsed)[b-g9w7wduaut]{
+    color: var(--primary);
+}
+
+.accordion[b-g9w7wduaut] {
+    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='green'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.cta-section[b-g9w7wduaut] {
+    background-color: var(--primary) !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.nav-link[b-g9w7wduaut] {
+     background-color: #FFFFFF;
+     color: var(--text-dark) !important;
+ }
