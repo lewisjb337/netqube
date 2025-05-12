@@ -4,8 +4,6 @@
 Built with **Blazor WebAssembly**, it delivers a fast, clean, and professional front-facing site for potential clients. 
 This is just a pretend site and does not actully offer any services. 
 
-[🌐 Visit Netqube](https://www.netqube.co.uk)
-
 ---
 
 ## Features
